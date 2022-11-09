@@ -3,7 +3,7 @@ body {
 }
 
 .grid-container {
-  background-color: #776996;
+  background: #1c0032;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: auto auto auto;
@@ -50,6 +50,11 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+}
+
+.grid-container .grid-item-medium-container .grid-item-medium .medium-card-title {
+  border-bottom: 1px solid #e019f932;
+  padding-bottom: 11px;
 }
 
 .grid-container .grid-item-medium-container h2 {
@@ -136,7 +141,7 @@ body {
   margin: 0px;
   padding-bottom: 15px;
   padding-left: 25px;
-  border-bottom: 1px solid #e019f9;
+  border-bottom: 1px solid #e019f932;
 }
 
 .grid-container .grid-item-large-container .grid-item-large-box .large-card p {
@@ -150,7 +155,7 @@ body {
 }
 
 .grid-container .grid-item-large-container .grid-item-large-box .large-card .arcade-value {
-  border-right: 1px solid #e019f9;
+  border-right: 1px solid #e019f932;
   padding-top: 25px;
 }
 
@@ -163,20 +168,17 @@ body {
 }
 
 .grid-container .grid-item-large-container .grid-item-large-box .large-card .nft-value {
-  border-right: 1px solid #e019f9;
   padding-top: 25px;
   color: #60dadf;
 }
 
 .grid-container .grid-item-large-container .grid-item-large-box .large-card .platform-value {
-  border-right: 1px solid #e019f9;
+  border-right: 1px solid #e019f932;
   padding-top: 25px;
-  border-right: 1px solid #e019f9;
   color: #e019f9;
 }
 
 .grid-container .grid-item-large-container .grid-item-large-box .large-card .raydium-value {
-  border-right: 1px solid #e019f9;
   padding-top: 25px;
   color: #fece02;
 }

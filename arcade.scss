@@ -2,7 +2,7 @@ body {
   margin: 30px;
 }
 .grid-container {
-  background-color: rgb(119, 105, 150);
+  background: #1c0032;
   display: grid;
   grid-template-columns: auto auto auto;
   grid-template-rows: 220px 220px 1;
@@ -32,6 +32,10 @@ body {
       gap: 15px;
       display: flex;
       flex-direction: column;
+      .medium-card-title {
+        border-bottom: 1px solid #e019f932;
+        padding-bottom: 11px;
+      }
     }
 
     h2 {
@@ -101,7 +105,7 @@ body {
           margin: 0px;
           padding-bottom: 15px;
           padding-left: 25px;
-          border-bottom: 1px solid #e019f9;
+          border-bottom: 1px solid #e019f932;
         }
         p {
           font-weight: 400;
@@ -113,7 +117,7 @@ body {
           padding-top: 18px;
         }
         .arcade-value {
-          border-right: 1px solid #e019f9;
+          border-right: 1px solid #e019f932;
           padding-top: 25px;
 
           h2 {
@@ -124,19 +128,16 @@ body {
           }
         }
         .nft-value {
-          border-right: 1px solid #e019f9;
           padding-top: 25px;
           color: #60dadf;
         }
         .platform-value {
-          border-right: 1px solid #e019f9;
+          border-right: 1px solid #e019f932;
           padding-top: 25px;
-          border-right: 1px solid #e019f9;
 
           color: #e019f9;
         }
         .raydium-value {
-          border-right: 1px solid #e019f9;
           padding-top: 25px;
           color: #fece02;
         }
