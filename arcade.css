@@ -1,0 +1,183 @@
+body {
+  margin: 30px;
+}
+
+.grid-container {
+  background-color: #776996;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto auto;
+      grid-template-columns: auto auto auto;
+  -ms-grid-rows: 220px 220px 1;
+      grid-template-rows: 220px 220px 1;
+  -webkit-column-gap: 50px;
+          column-gap: 50px;
+  row-gap: 70px;
+}
+
+.grid-container .grid-item-box {
+  padding-top: 25px;
+  padding-left: 15px;
+  background: #1c0032;
+  border: 1px solid #e019f9;
+  border-radius: 13px;
+}
+
+.grid-container h1 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #e019f9;
+  margin: 0px;
+}
+
+.grid-container .grid-item-medium-container {
+  -ms-grid-row: 1;
+      grid-row-start: 1;
+  grid-row-end: 3;
+  display: -ms-grid;
+  display: grid;
+  gap: 55px;
+}
+
+.grid-container .grid-item-medium-container .grid-item-medium {
+  gap: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.grid-container .grid-item-medium-container h2 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  margin: 0px;
+  color: #ffffff;
+}
+
+.grid-container .grid-item-medium-container p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 100px;
+  margin-bottom: 28px;
+  margin-top: 18px;
+  letter-spacing: 0.857143px;
+  color: #ffffff;
+}
+
+.grid-container .grid-item-small-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto;
+      grid-template-columns: auto auto;
+  -ms-grid-rows: 100px 100px;
+      grid-template-rows: 100px 100px;
+  -webkit-column-gap: 50px;
+          column-gap: 50px;
+  row-gap: 20px;
+  grid-row: inherit;
+  -ms-grid-row: 1;
+      grid-row-start: 1;
+  -ms-grid-row-span: 1;
+      grid-row-end: span 1;
+  -ms-grid-column: 2;
+      grid-column-start: 2;
+  grid-column-end: 4;
+}
+
+.grid-container .grid-item-small-container .grid-item-small h1 {
+  margin-bottom: 15px;
+}
+
+.grid-container .grid-item-small-container .grid-item-small p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  margin-top: 0px;
+  margin-bottom: 12px;
+  color: #ffffff;
+}
+
+.grid-container .grid-item-large-container {
+  -ms-grid-row: 2;
+      grid-row-start: 2;
+  grid-row-end: 3;
+  -ms-grid-column: 2;
+      grid-column-start: 2;
+  grid-column-end: 4;
+}
+
+.grid-container .grid-item-large-container .grid-item-large-box {
+  display: -ms-grid;
+  display: grid;
+  gap: 15px;
+}
+
+.grid-container .grid-item-large-container .grid-item-large-box .large-card {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  padding: 0px;
+}
+
+.grid-container .grid-item-large-container .grid-item-large-box .large-card h2 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  margin: 0px;
+  padding-bottom: 15px;
+  padding-left: 25px;
+  border-bottom: 1px solid #e019f9;
+}
+
+.grid-container .grid-item-large-container .grid-item-large-box .large-card p {
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 100px;
+  letter-spacing: 0.857143px;
+  margin: 0px;
+  padding-left: 25px;
+  padding-top: 18px;
+}
+
+.grid-container .grid-item-large-container .grid-item-large-box .large-card .arcade-value {
+  border-right: 1px solid #e019f9;
+  padding-top: 25px;
+}
+
+.grid-container .grid-item-large-container .grid-item-large-box .large-card .arcade-value h2 {
+  color: #2591ff;
+}
+
+.grid-container .grid-item-large-container .grid-item-large-box .large-card .arcade-value p {
+  color: #0091ff;
+}
+
+.grid-container .grid-item-large-container .grid-item-large-box .large-card .nft-value {
+  border-right: 1px solid #e019f9;
+  padding-top: 25px;
+  color: #60dadf;
+}
+
+.grid-container .grid-item-large-container .grid-item-large-box .large-card .platform-value {
+  border-right: 1px solid #e019f9;
+  padding-top: 25px;
+  border-right: 1px solid #e019f9;
+  color: #e019f9;
+}
+
+.grid-container .grid-item-large-container .grid-item-large-box .large-card .raydium-value {
+  border-right: 1px solid #e019f9;
+  padding-top: 25px;
+  color: #fece02;
+}
+/*# sourceMappingURL=arcade.css.map */
